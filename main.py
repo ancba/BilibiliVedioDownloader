@@ -16,5 +16,4 @@ if __name__ == '__main__':
     bv = str(input('视频bv号：'))
     link = api.GetVedioLink(bv)[0]
     wget = 'wget --referer "http://www.bilibili.com" "' + link + '"  -O vedio.fly'
-    print(wget)
     os.system(wget)
