@@ -14,6 +14,7 @@ data = {
 
 if __name__ == '__main__':
     bv = str(input('视频bv号：'))
-    link = api.GetVedioLink(bv)[0]
+    qn = int(input('视频清晰度(参考readme文档)'))
+    link = api.GetVedioLink(bv,qn)[0]
     wget = 'wget --referer "http://www.bilibili.com" "' + link + '"  -O vedio.fly'
     os.system(wget)

@@ -10,7 +10,7 @@ def GetVedioInfo (bv):
 
 def GetVedioLink (bv,qn=0):
     '''
-    获取视频的直链,长度
+    获取视频的直链
     '''
 
     info = GetVedioInfo(bv)
