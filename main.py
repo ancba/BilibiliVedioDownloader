@@ -1,4 +1,3 @@
-import urllib.request as request
 import api
 import os
 
