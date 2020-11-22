@@ -4,7 +4,7 @@ Download Bilibili vedio by urllib3
 # 环境要求
 * Python版本 >= 3
 * 有良好的网络链接，且能够正常访问bilibili
-* 系统中带有wget，且能够正常使用
+* 系统中带有urllib3，且能够正常使用
 
 # 安装与使用
 ```
