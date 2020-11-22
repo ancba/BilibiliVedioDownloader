@@ -1,5 +1,5 @@
 # BilibiliVedioDownloader
-Download Bilibili vedio by wget
+Download Bilibili vedio by urllib3
 
 # 环境要求
 * Python版本 >= 3
